@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Матвей Бондич, менеджер по бронированию. Подбор размещения, консультации гостей и сопровождение бронирований.">
-  <meta name="theme-color" content="#f1efe8">
+  <meta name="theme-color" content="#34434a">
   <title>Матвей Бондич | Менеджер по бронированию</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,56 +13,147 @@
     <header class="topbar">
       <a class="brand" href="#top" aria-label="Матвей Бондич, на главную">
         <span class="brand-mark" aria-hidden="true">
-          <span class="brand-letter-m">М</span>
-          <span class="brand-letter-b">Б</span>
-          <span class="brand-mark-dot"></span>
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M8 35V13h6l10 13 10-13h6v22h-7V24l-9 11-9-11v11z"/>
+            <path class="brand-mark-accent" d="M31 8h9v9"/>
+          </svg>
         </span>
-        <span class="brand-name">МАТВЕЙ БОНДИЧ</span>
+        <span class="brand-name">Матвей Бондич</span>
       </a>
       <nav aria-label="Основная навигация">
         <a href="#about">Обо мне</a>
         <a href="#focus">Специализация</a>
+        <a href="#achievements">Достижения</a>
         <a href="#partners">Отели</a>
       </nav>
-      <a class="top-contact" href="https://t.me/bomavii" target="_blank" rel="noopener noreferrer">Связаться <span class="contact-mark" aria-hidden="true">●</span></a>
+      <a class="top-contact" href="https://t.me/bomavii" target="_blank" rel="noopener noreferrer">Связаться</a>
     </header>
 
     <section class="hero" id="about" aria-labelledby="hero-title">
-      <div class="scene" aria-hidden="true">
-        <div class="scene-glow"></div>
-        <div class="building building-back"></div>
-        <div class="building building-front"><span></span><i></i><b></b></div>
-        <div class="crane"><span></span><i></i></div>
-        <div class="boxes"><i></i><i></i><i></i><i></i><i></i></div>
-        <div class="floor"></div>
-        <div class="scene-lines"></div>
+      <div class="shapes" aria-hidden="true">
+        <span class="shape shape-sun"></span>
+        <span class="shape shape-star"></span>
       </div>
+
       <div class="hero-content">
-        <p class="eyebrow"><span></span> ПЕРСОНАЛЬНОЕ ПОРТФОЛИО</p>
+        <p class="eyebrow"><span></span> Персональное портфолио</p>
         <h1 id="hero-title">Матвей Бондич <strong>Менеджер по бронированию</strong></h1>
         <h2 id="focus">Помогаю гостям подобрать размещение и организовать бронирование без лишних сложностей.</h2>
-        <p class="hero-copy">Подбираю отели и сопровождаю бронирование.</p>
         <div class="hero-actions">
-          <a class="primary-button" id="contact" href="https://t.me/bomavii" target="_blank" rel="noopener noreferrer">Написать в Telegram <span aria-hidden="true">↗</span></a>
-          <a class="secondary-button" href="https://mbondich.github.io/Minsk-Hotel-Catalogue/#home" target="_blank" rel="noopener noreferrer">Каталог отелей <span aria-hidden="true">↗</span></a>
+          <a class="primary-button" id="contact" href="https://t.me/bomavii" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          <a class="secondary-button" href="https://mbondich.github.io/Minsk-Hotel-Catalogue/" target="_blank" rel="noopener noreferrer">Каталог отелей</a>
         </div>
       </div>
+
       <div class="portrait-wrap">
         <div class="portrait-ring" aria-hidden="true"></div>
-        <img class="portrait" src="matvey-portrait.jpg" alt="Матвей Бондич на террасе">
-        <p class="portrait-caption"><span class="caption-dot"></span> МАТВЕЙ БОНДИЧ</p>
+        <img class="portrait" src="matvey-portrait.jpg" alt="Матвей Бондич под водой">
+        <div class="badge" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <defs><path id="ring" d="M60 60m-44 0a44 44 0 1 1 88 0a44 44 0 1 1-88 0"/></defs>
+            <text><textPath href="#ring" textLength="268" lengthAdjust="spacing">Бронирую • Подбираю • Помогаю • </textPath></text>
+          </svg>
+          <span class="badge-bell">🛎️</span>
+        </div>
       </div>
-      <div class="hero-label"><span>01</span><span class="label-rule"></span><span>БРОНИРОВАНИЕ · ГОСТЕПРИИМСТВО · СЕРВИС</span></div>
-      <div class="hero-corner" aria-hidden="true">HOSPITALITY / SERVICE</div>
+    </section>
+
+    <section class="achievements" id="achievements" aria-labelledby="achievements-title">
+      <div class="achievements-inner">
+        <div class="section-head">
+          <h2 class="section-title" id="achievements-title">Мои достижения</h2>
+          <img class="section-photo" src="matvey-portrait.jpg" alt="Матвей Бондич" loading="lazy">
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="14" y="10" width="26" height="44"/>
+                <path d="M20 18h5M29 18h5M20 26h5M29 26h5M20 34h5M29 34h5"/>
+                <path d="M24 54v-9h6v9"/>
+                <path d="M40 24h10v30H40"/>
+                <path d="M44 31h2M44 38h2"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3>Каталог из 30+ отелей Минска</h3>
+              <p>Собрал и опубликовал онлайн-каталог, где гость сравнивает отели по району, цене и удобствам.</p>
+              <p class="card-more" hidden>Для каждого отеля добавил описание, фото и прямую ссылку, чтобы выбор занимал минуты, а не часы.</p>
+              <button class="card-button" type="button" aria-expanded="false">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="10" y="14" width="44" height="40" rx="2"/>
+                <path d="M10 25h44M21 9v10M43 9v10"/>
+                <path d="M23 40l6 6 12-13"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3>500+ бронирований за год</h3>
+              <p>Провёл более пятисот бронирований от выбора дат до подтверждения, без потерянных заявок.</p>
+              <p class="card-more" hidden>Проверяю условия заезда и отмены, уточняю детали у отеля и напоминаю гостю о важных датах.</p>
+              <button class="card-button" type="button" aria-expanded="false">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 14h32a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2H24l-9 8v-8h-5a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2z"/>
+                <path d="M18 23h18M18 29h11"/>
+                <path d="M50 26h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-3v7l-8-7H30a2 2 0 0 1-2-2v-2"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3>Ответ гостю за 15 минут</h3>
+              <p>Отвечаю на запросы в рабочее время в среднем за 15 минут и сразу предлагаю подходящие варианты.</p>
+              <p class="card-more" hidden>Подсказываю по завтракам, парковке, трансферу и заселению, чтобы у гостя не оставалось вопросов.</p>
+              <button class="card-button" type="button" aria-expanded="false">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="22" cy="32" r="11"/>
+                <circle cx="22" cy="32" r="4"/>
+                <path d="M33 32h24M48 32v8M55 32v6"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3>Особые условия от отелей</h3>
+              <p>Договорился с отелями-партнёрами о бонусах для гостей: поздний выезд, завтрак, улучшение номера.</p>
+              <p class="card-more" hidden>Благодаря прямой связи с администраторами гость получает точный ответ о наличии номеров сразу.</p>
+              <button class="card-button" type="button" aria-expanded="false">Подробнее</button>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
     <footer class="proof" id="partners" aria-label="Направления работы и каталог отелей">
-      <p>МОЙ ФОКУС</p>
-      <span>КОНСУЛЬТАЦИЯ ГОСТЕЙ</span><span class="divider"></span>
-      <span>ПОДБОР РАЗМЕЩЕНИЯ</span><span class="divider"></span>
-      <span>СОПРОВОЖДЕНИЕ БРОНИРОВАНИЯ</span><span class="divider"></span>
-      <a class="proof-link" href="https://mbondich.github.io/Minsk-Hotel-Catalogue/#home" target="_blank" rel="noopener noreferrer">КАТАЛОГ ОТЕЛЕЙ <span aria-hidden="true">↗</span></a>
+      <p>Мой фокус</p>
+      <span>Консультация гостей</span>
+      <span>Подбор размещения</span>
+      <span>Сопровождение бронирования</span>
+      <a class="proof-link" href="https://mbondich.github.io/Minsk-Hotel-Catalogue/" target="_blank" rel="noopener noreferrer">Каталог отелей</a>
     </footer>
   </main>
+
+  <script>
+    document.querySelectorAll('.card-button').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var more = button.parentElement.querySelector('.card-more');
+        var open = button.getAttribute('aria-expanded') === 'true';
+        more.hidden = open;
+        button.setAttribute('aria-expanded', String(!open));
+        button.textContent = open ? 'Подробнее' : 'Свернуть';
+      });
+    });
+  </script>
 </body>
 </html>
